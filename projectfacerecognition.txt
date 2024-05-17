@@ -1,0 +1,16 @@
+# project Face Recognition
+==========================
+1. collect data of various person
+    - Asking multiple people to come in front of webcam, click 20 each pictures each
+    - Store the part of the image containing the face(Haarcascade to detect the face)
+2. Train a classifier to learn who is the person(classification).
+    - Load the training data(.npy arrays)
+    - Store the data and target values(Labels)
+
+3. predicting the name of the person
+    - Read the video stream
+    - Extract the face out of it
+    - Predict the label for that face
+        - Logistic reg(parametric algorithm)
+        - neural natwork
+        - KNN (non-parametric : look for similarity in nearest neighbour)
