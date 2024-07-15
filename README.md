@@ -1,1 +1,1 @@
-# Face-Recognition project
+# Face-Recognition project.
