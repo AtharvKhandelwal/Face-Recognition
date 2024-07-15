@@ -7,7 +7,7 @@
     - Load the training data(.npy arrays)
     - Store the data and target values(Labels)
 
-3. predicting the name of the person
+3. predicting the name of the person using the model.
     - Read the video stream
     - Extract the face out of it
     - Predict the label for that face
